@@ -1,0 +1,350 @@
+[
+  {
+    "sequence": 33,
+    "kind": "run_started",
+    "timestamp": "2026-09-27T03:27:15.416150+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": null,
+    "attempt": null,
+    "message": null,
+    "details": {
+      "revision": 1
+    }
+  },
+  {
+    "sequence": 34,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:27:15.426573+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "intake",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 35,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:27:15.436481+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "intake",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 36,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:27:15.446650+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "inspect",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 37,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:27:15.459226+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "inspect",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 38,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:27:15.467444+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "draft_plan",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 39,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:27:15.476549+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "draft_plan",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 40,
+    "kind": "approval_requested",
+    "timestamp": "2026-09-27T03:27:15.482537+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "plan_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {
+      "paths": []
+    }
+  },
+  {
+    "sequence": 41,
+    "kind": "approval_granted",
+    "timestamp": "2026-09-27T03:29:33.299454+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "plan_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {
+      "actor": "monis",
+      "rationale": ""
+    }
+  },
+  {
+    "sequence": 42,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:29:33.315869+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "plan_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 43,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:29:33.369524+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "plan_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 44,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:29:33.376832+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "implement",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 45,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:29:33.385601+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "implement",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 46,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:29:33.393822+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "unit_tests",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 47,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:29:33.415664+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "lint_compile",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 48,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:29:33.437385+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "security_scan",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 49,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:29:33.480782+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "security_scan",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 50,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:29:33.490482+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "documentation",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 51,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:29:33.499775+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "documentation",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 52,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:29:33.601223+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "lint_compile",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 53,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:29:33.865416+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "unit_tests",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 54,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:29:33.880952+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "integration_tests",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 55,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:29:37.057492+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "integration_tests",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 56,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:29:37.071777+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "review_prepare",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 57,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:29:37.082259+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "review_prepare",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 58,
+    "kind": "approval_requested",
+    "timestamp": "2026-09-27T03:29:37.089051+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "review_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {
+      "paths": []
+    }
+  },
+  {
+    "sequence": 59,
+    "kind": "approval_rejected",
+    "timestamp": "2026-09-27T03:29:37.097136+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "review_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {
+      "actor": "monis",
+      "rationale": "Rejected by reviewer"
+    }
+  },
+  {
+    "sequence": 60,
+    "kind": "safe_stop",
+    "timestamp": "2026-09-27T03:29:37.105029+00:00",
+    "workflow_name": "url-shortener-greenfield",
+    "run_id": "afac1748-fb9b-4237-a155-d2fc91e063d5",
+    "graph_revision": 1,
+    "step_name": "review_approval",
+    "attempt": null,
+    "message": "Approval rejected at step 'review_approval'",
+    "details": {}
+  }
+]

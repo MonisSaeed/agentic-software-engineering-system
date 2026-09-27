@@ -1,0 +1,582 @@
+[
+  {
+    "sequence": 123,
+    "kind": "run_started",
+    "timestamp": "2026-09-27T03:35:08.345023+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": null,
+    "attempt": null,
+    "message": null,
+    "details": {
+      "revision": 1
+    }
+  },
+  {
+    "sequence": 124,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:35:08.361880+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "intake",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 125,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:35:08.378958+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "intake",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 126,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:35:08.391449+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "inspect",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 127,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:35:08.406582+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "inspect",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 128,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:35:08.417161+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "draft_plan",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 129,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:35:08.429480+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "draft_plan",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 130,
+    "kind": "approval_requested",
+    "timestamp": "2026-09-27T03:35:08.438669+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "plan_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {
+      "paths": []
+    }
+  },
+  {
+    "sequence": 131,
+    "kind": "approval_granted",
+    "timestamp": "2026-09-27T03:35:32.846525+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "plan_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {
+      "actor": "monis",
+      "rationale": "Testing"
+    }
+  },
+  {
+    "sequence": 132,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:35:32.864098+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "plan_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 133,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:35:32.924897+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "plan_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 134,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:35:32.931674+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "implement",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 135,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:35:32.944437+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "implement",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 136,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:35:32.951135+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "unit_tests",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 137,
+    "kind": "step_failed",
+    "timestamp": "2026-09-27T03:35:32.959079+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "unit_tests",
+    "attempt": 1,
+    "message": "Regression reproduced: expired link returned a redirect",
+    "details": {
+      "category": "test",
+      "test": "expired_links_do_not_redirect"
+    }
+  },
+  {
+    "sequence": 138,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:35:32.966067+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "lint_compile",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 139,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:35:32.988946+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "security_scan",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 140,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:35:33.018269+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "security_scan",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 141,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:35:33.028751+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "documentation",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 142,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:35:33.038513+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "documentation",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 143,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:35:33.167046+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "lint_compile",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 144,
+    "kind": "rollback",
+    "timestamp": "2026-09-27T03:35:33.219010+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "unit_tests",
+    "attempt": null,
+    "message": "Restored checkpoint before returning to 'implement'",
+    "details": {
+      "target": "implement",
+      "loopback": 1
+    }
+  },
+  {
+    "sequence": 145,
+    "kind": "loopback",
+    "timestamp": "2026-09-27T03:35:33.225675+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "unit_tests",
+    "attempt": null,
+    "message": "Returning to 'implement' after failure",
+    "details": {
+      "target": "implement",
+      "loopback": 1
+    }
+  },
+  {
+    "sequence": 146,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:35:33.232216+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "implement",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 147,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:35:33.244254+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "implement",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 148,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:35:33.250919+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "unit_tests",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 149,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:35:33.271817+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "lint_compile",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 150,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:35:33.287444+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "security_scan",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 151,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:35:33.510762+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "security_scan",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 152,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:35:33.523438+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "documentation",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 153,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:35:33.531829+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "documentation",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 154,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:35:33.543473+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "lint_compile",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 155,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:35:33.846374+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "unit_tests",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 156,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:35:33.857100+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "integration_tests",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 157,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:35:37.077189+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "integration_tests",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 158,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:35:37.089488+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "review_prepare",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 159,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:35:37.101202+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "review_prepare",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 160,
+    "kind": "approval_requested",
+    "timestamp": "2026-09-27T03:35:37.110578+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "review_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {
+      "paths": []
+    }
+  },
+  {
+    "sequence": 161,
+    "kind": "approval_granted",
+    "timestamp": "2026-09-27T03:35:59.539747+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "review_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {
+      "actor": "monis",
+      "rationale": "Testing"
+    }
+  },
+  {
+    "sequence": 162,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:35:59.555722+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "review_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 163,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:35:59.570808+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "review_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 164,
+    "kind": "approval_requested",
+    "timestamp": "2026-09-27T03:35:59.582380+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "release_readiness",
+    "attempt": 1,
+    "message": null,
+    "details": {
+      "paths": []
+    }
+  },
+  {
+    "sequence": 165,
+    "kind": "approval_granted",
+    "timestamp": "2026-09-27T03:36:15.432338+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "release_readiness",
+    "attempt": 1,
+    "message": null,
+    "details": {
+      "actor": "monis",
+      "rationale": "Testing"
+    }
+  },
+  {
+    "sequence": 166,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:36:15.452807+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "release_readiness",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 167,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:36:15.465497+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": "release_readiness",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 168,
+    "kind": "run_completed",
+    "timestamp": "2026-09-27T03:36:15.478350+00:00",
+    "workflow_name": "url-shortener-brownfield",
+    "run_id": "362ec5ec-03db-40bf-ab01-4e5e749ccd3f",
+    "graph_revision": 1,
+    "step_name": null,
+    "attempt": null,
+    "message": null,
+    "details": {
+      "loopbacks": 1
+    }
+  }
+]

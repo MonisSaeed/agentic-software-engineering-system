@@ -1,0 +1,10 @@
+{
+  "runs_total": 3,
+  "runs_completed": 0,
+  "runs_safe_stopped": 2,
+  "success_rate": 0.0,
+  "retry_count": 0,
+  "rollback_count": 0,
+  "mttr_seconds": 0.006722,
+  "end_to_end_latency_seconds": 292.49134200000003
+}

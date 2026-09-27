@@ -1,0 +1,513 @@
+[
+  {
+    "sequence": 169,
+    "kind": "run_started",
+    "timestamp": "2026-09-27T03:40:42.933480+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 1,
+    "step_name": null,
+    "attempt": null,
+    "message": null,
+    "details": {
+      "revision": 1
+    }
+  },
+  {
+    "sequence": 170,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:40:42.944552+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 1,
+    "step_name": "intake",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 171,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:40:42.952951+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 1,
+    "step_name": "intake",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 172,
+    "kind": "replan_requested",
+    "timestamp": "2026-09-27T03:40:42.961269+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 1,
+    "step_name": null,
+    "attempt": null,
+    "message": "Human clarification changed the analytics requirement",
+    "details": {
+      "affected_steps": [
+        "intake"
+      ]
+    }
+  },
+  {
+    "sequence": 173,
+    "kind": "approval_requested",
+    "timestamp": "2026-09-27T03:40:42.967850+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 1,
+    "step_name": null,
+    "attempt": null,
+    "message": "Human clarification changed the analytics requirement",
+    "details": {
+      "scope": "replan"
+    }
+  },
+  {
+    "sequence": 174,
+    "kind": "approval_granted",
+    "timestamp": "2026-09-27T03:40:57.443820+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 1,
+    "step_name": null,
+    "attempt": null,
+    "message": "Human clarification changed the analytics requirement",
+    "details": {
+      "scope": "replan",
+      "actor": "monis",
+      "rationale": "Testing"
+    }
+  },
+  {
+    "sequence": 175,
+    "kind": "replanned",
+    "timestamp": "2026-09-27T03:40:57.460176+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": null,
+    "attempt": null,
+    "message": "Human clarification changed the analytics requirement",
+    "details": {
+      "revision": 2
+    }
+  },
+  {
+    "sequence": 176,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:40:57.472269+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "intake",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 177,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:40:57.484160+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "intake",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 178,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:40:57.494074+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "inspect",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 179,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:40:57.506610+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "inspect",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 180,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:40:57.516207+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "draft_plan",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 181,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:40:57.528666+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "draft_plan",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 182,
+    "kind": "approval_requested",
+    "timestamp": "2026-09-27T03:40:57.538987+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "plan_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {
+      "paths": []
+    }
+  },
+  {
+    "sequence": 183,
+    "kind": "approval_granted",
+    "timestamp": "2026-09-27T03:41:05.074559+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "plan_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {
+      "actor": "monis",
+      "rationale": "TESTING"
+    }
+  },
+  {
+    "sequence": 184,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:41:05.090025+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "plan_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 185,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:41:05.152869+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "plan_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 186,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:41:05.159335+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "implement",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 187,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:41:05.171152+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "implement",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 188,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:41:05.177952+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "unit_tests",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 189,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:41:05.201232+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "lint_compile",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 190,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:41:05.222998+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "security_scan",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 191,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:41:05.258463+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "security_scan",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 192,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:41:05.268373+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "documentation",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 193,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:41:05.279486+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "documentation",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 194,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:41:05.384093+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "lint_compile",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 195,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:41:05.645143+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "unit_tests",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 196,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:41:05.653229+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "integration_tests",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 197,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:41:08.791031+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "integration_tests",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 198,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:41:08.803152+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "review_prepare",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 199,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:41:08.814762+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "review_prepare",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 200,
+    "kind": "approval_requested",
+    "timestamp": "2026-09-27T03:41:08.823338+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "review_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {
+      "paths": []
+    }
+  },
+  {
+    "sequence": 201,
+    "kind": "approval_granted",
+    "timestamp": "2026-09-27T03:41:20.773750+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "review_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {
+      "actor": "monis",
+      "rationale": "TESTING"
+    }
+  },
+  {
+    "sequence": 202,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:41:20.792697+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "review_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 203,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:41:20.807010+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "review_approval",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 204,
+    "kind": "approval_requested",
+    "timestamp": "2026-09-27T03:41:20.818516+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "release_readiness",
+    "attempt": 1,
+    "message": null,
+    "details": {
+      "paths": []
+    }
+  },
+  {
+    "sequence": 205,
+    "kind": "approval_granted",
+    "timestamp": "2026-09-27T03:41:25.970180+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "release_readiness",
+    "attempt": 1,
+    "message": null,
+    "details": {
+      "actor": "monis",
+      "rationale": "TESTING"
+    }
+  },
+  {
+    "sequence": 206,
+    "kind": "step_started",
+    "timestamp": "2026-09-27T03:41:25.990705+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "release_readiness",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 207,
+    "kind": "step_completed",
+    "timestamp": "2026-09-27T03:41:26.025371+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": "release_readiness",
+    "attempt": 1,
+    "message": null,
+    "details": {}
+  },
+  {
+    "sequence": 208,
+    "kind": "run_completed",
+    "timestamp": "2026-09-27T03:41:26.039010+00:00",
+    "workflow_name": "url-shortener-ambiguous",
+    "run_id": "8f8524ec-724a-4f4e-94fe-305bdfc55a54",
+    "graph_revision": 2,
+    "step_name": null,
+    "attempt": null,
+    "message": null,
+    "details": {
+      "loopbacks": 0
+    }
+  }
+]
